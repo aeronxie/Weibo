@@ -1,0 +1,31 @@
+
+//  Weibo
+//
+//  Created by Fay on 15/9/15.
+//  Copyright (c) 2015年 Fay. All rights reserved.
+//
+
+
+
+
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "NSDate+Extension.h"
+#import "NSString+Extension.h"
+#import "NSString+Emoji.h"
+#import "UITextView+Extension.h"
+
+#ifdef DEBUG
+#define XFLog(...) NSLog(__VA_ARGS__)
+#else
+#define XFLog(...)
+
+#endif
+// RGB颜色
+#define XFColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+// cell的边框宽度
+#define XFStatusCellBorderW 10
+#define XFStatusCellBorderH 5
+#define XFStatusMargin 10
+// 随机色
+#define XFRandomColor XFColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
