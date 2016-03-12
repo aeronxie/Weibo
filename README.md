@@ -6,11 +6,9 @@
 这个项目是之前在学习的时候写的一个高仿微博的App
 
 ![](http://7xoijj.com1.z0.glb.clouddn.com/%E5%BE%AE%E5%8D%9A3.gif)
-
 ![](http://7xoijj.com1.z0.glb.clouddn.com/wb01.png)
 
 ![](http://7xoijj.com1.z0.glb.clouddn.com/wb02.png)
-
 ![](http://7xoijj.com1.z0.glb.clouddn.com/wb04.png)
 
 --
