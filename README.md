@@ -1,7 +1,18 @@
 # 新浪微博 （仿）
 ---
 
-####首先非常感谢 [@code4app](http://www.code4app.com) 提供的微博SDK !!!
+
+下载后先请 打开 `XFOAuthController.m`文件，修改以下三个参数，需要自己注册成为新浪的开发者才可以拥有以下三个参数！
+
+	NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"client_id"] = @"3109390359";
+    params[@"client_secret"] = @"f2aef4bdf1e80ba7a9ce7da8a336218b";
+    params[@"redirect_uri"] = @"http://www.baidu.com";
+    
+  以及这个URL的参数
+  	
+  	NSURL *url = [NSURL URLWithString:@"https://api.weibo.com/oauth2/authorize?client_id=3109390359&redirect_uri=http://www.baidu.com"];  
+
 
 这个项目是之前在学习的时候写的一个高仿微博的App
 

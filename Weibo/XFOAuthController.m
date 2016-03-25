@@ -31,7 +31,7 @@
     [self.view addSubview:webView];
     
     
-    NSURL *url = [NSURL URLWithString:@"https://api.weibo.com/oauth2/authorize?client_id=568898243&redirect_uri=http://www.sharesdk.cn"];
+    NSURL *url = [NSURL URLWithString:@"https://api.weibo.com/oauth2/authorize?client_id=3109390359&redirect_uri=http://www.baidu.com"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [webView loadRequest:request];
     
@@ -118,10 +118,10 @@
     
     //拼接请求参数
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    params[@"client_id"] = @"568898243";
-    params[@"client_secret"] = @"38a4f8204cc784f81f9f0daaf31e02e3";
+    params[@"client_id"] = @"3109390359";
+    params[@"client_secret"] = @"f2aef4bdf1e80ba7a9ce7da8a336218b";
     params[@"grant_type"] = @"authorization_code";
-    params[@"redirect_uri"] = @"http://www.sharesdk.cn";
+    params[@"redirect_uri"] = @"http://www.baidu.com";
     params[@"code"] = code;
     
     [mgr POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
